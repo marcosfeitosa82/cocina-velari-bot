@@ -6,7 +6,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 // ⚠️ URL DO SEU TÚNEL BORE (já configurada)
-const URL_TERMUX = 'http://bore.pub:40292/imprimir';
+const URL_TERMUX = 'https://placeholder.ngrok-free.app/imprimir';
 
 let qrDataUrl = '';
 
